@@ -69,6 +69,13 @@ const SignupPage = () => {
           <button className="w-full mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all">
             Sign Up
           </button>
+            {/* Sign up using google account. Google icon */}
+          <button className="w-full mt-6 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-all">
+            Sign Up with Google
+          </button>
+
+
+            
 
           {/* Already have an account */}
           <p className="text-center text-gray-600 mt-4">
